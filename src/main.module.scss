@@ -1,0 +1,44 @@
+.table {
+	border-collapse: collapse;
+
+	thead {
+		tr {
+			&:hover {
+				background: transparent;
+			}
+		}
+	}
+
+	tr {
+		transition: background .2s;
+		&:hover {
+			background: #eee;
+		}
+	}
+
+	th {
+		font-weight: bold;
+	}
+
+
+	 th, td {
+		 border: 1px solid #ddd;
+		 padding: 12px 24px;
+	 }
+
+}
+
+.input {
+	outline: none
+}
+
+.input__error {
+	border-color: red;
+}
+.message__error {
+	color: red;
+}
+
+.d-0 {
+	display: none !important;
+}
